@@ -1,25 +1,30 @@
 {
-  "name": "backend",
+  "name": "nodejs_fs_backend",
   "version": "1.0.0",
   "description": "NodeJS Rest API Backend Service",
   "main": "server.js",
   "scripts": {
     "test": "jest --coverage",
-    "start": "nodenom server"
+    "start": "nodemon server"
   },
   "keywords": [
     "NodeJS",
     "RestAPI",
     "service"
   ],
-  "author": "Rainer",
+  "author": "Eric Clarke",
   "license": "MIT",
   "dependencies": {
-    "dotenv": "^16.2.0",
-    "express": "^4.18.2"
+    "bcrypt": "^5.1.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.0",
+    "mongoose": "^6.8.3",
+    "swagger-ui-express": "^4.6.0"
   },
   "devDependencies": {
-    "jest": "^29.5.0",
-    "nodemon": "^2.0.22"
+    "jest": "^29.3.1",
+    "nodemon": "^2.0.20"
   }
 }
