@@ -16,7 +16,7 @@ const app = express();
 app.use(express.json());
 
 
-// use middleware for url encoding
+// MIDDLEWARE for url encoding
 app.use(express.urlencoded({ extended: true }));
 
 
@@ -58,5 +58,7 @@ app.use((error, req, res, next) =>
 });
 
 //connect();
+
+
 
 module.exports = app;
