@@ -8,3 +8,11 @@ npm start
 ```
 
 
+## To test the backend
+
+```shell
+nmp i
+npm start
+```
+
+
